@@ -32,7 +32,10 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOrigins(
-            List.of("http://localhost:5173")
+            List.of(
+                "http://localhost:5173",
+                "https://kind-rebirth-production-3bd58cc2.up.railway.app"
+            )
         );
 
         configuration.setAllowedMethods(
