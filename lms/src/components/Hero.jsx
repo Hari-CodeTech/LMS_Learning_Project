@@ -1,3 +1,6 @@
+
+import { Link } from "react-router-dom";
+
 function Hero() {
 
     return (
@@ -18,13 +21,13 @@ function Hero() {
 
                 <div className="hero-buttons">
 
-                    <button className="get-started-btn">
+                    <Link to="/login" className="get-started-btn">
                         Get Started
-                    </button>
+                    </Link>
 
-                    <button className="explore-btn">
+                    <Link to="/courses" className="explore-btn">
                         Explore Courses
-                    </button>
+                    </Link>
 
                 </div>
 

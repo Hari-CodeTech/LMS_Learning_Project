@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 function About() {
+
 
     return (
 
@@ -22,9 +24,9 @@ function About() {
                     organized and effective for everyone.
                 </p>
 
-                <button className="about-btn">
-                    Start Learning
-                </button>
+                <Link to="/login" className="btn btn-primary">
+    Start Learning
+</Link>
 
             </div>
 

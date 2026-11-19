@@ -590,3 +590,34 @@
     }
 
 }
+
+.hero-buttons a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Course Management Buttons */
+.hero-buttons {
+    display: flex;
+}
+
+.course-management-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.course-management-buttons a {
+    display: block;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    box-sizing: border-box;
+}

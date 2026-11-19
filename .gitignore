@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# React build files
+dist/
+**/dist/
+
+# Java build files
+target/
+**/target/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Sensitive configuration
+**/application.properties
+
+# IDE files
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+
+# Logs
+*.log
